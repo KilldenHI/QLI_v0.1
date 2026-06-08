@@ -1,0 +1,28 @@
+:root {
+  --primary: #3498db;
+  --primary-dark: #2980b9;
+  --secondary: #e74c3c;
+  --secondary-dark: #c0392b;
+  --warning: #f39c12;
+  --dark: #1a1a2e;
+  --gray-bg: #f8f9fa;
+  --text-dark: #2c3e50;
+  --text-light: #555;
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.1);
+  --shadow-md: 0 4px 20px rgba(0,0,0,0.15);
+  --shadow-lg: 0 10px 40px rgba(0,0,0,0.2);
+  --sidebar-width: 320px;
+  --panel-width: 25%;
+  --transition: all 0.25s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  overflow: hidden;
+}

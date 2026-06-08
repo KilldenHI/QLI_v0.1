@@ -1,0 +1,40 @@
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: var(--white);
+  text-align: center;
+  padding: 20px;
+}
+
+.error-container h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ea4335;
+  margin-bottom: 12px;
+}
+
+.error-container p {
+  font-size: 14px;
+  color: var(--gray-500);
+  margin-bottom: 24px;
+}
+
+.error-container button {
+  padding: 10px 24px;
+  background: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+
+.error-container button:hover {
+  background: var(--primary-dark);
+}

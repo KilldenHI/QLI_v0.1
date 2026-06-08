@@ -1,0 +1,16 @@
+{
+  "name": "moscow-districts-backend",
+  "version": "1.0.0",
+  "description": "Backend for Moscow districts map",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "seed": "node src/db/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "pg": "^8.11.3",
+    "dotenv": "^16.3.1"
+  }
+}
